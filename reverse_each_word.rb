@@ -1,4 +1,4 @@
-def reverse_each_word(string)
+def reverse_each_word(sent)
   split_string = string.split("")
   reversed = []
   split_string.collect do |word|
